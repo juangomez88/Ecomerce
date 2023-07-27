@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+
+:root{
+    --color-azul: #2a7ae4;
+    --color-blanco: #fff;
+    --color-negro: #000;
+    --color-letra_1: #464646;
+    --color-letra_2: #a2a2a2;
+    --color-gris: #f5f5f5;
+    --color-back: #eaf2fd;
+    --color-borde: #c8c8c8
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h6, p, a, input, textarea{
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
