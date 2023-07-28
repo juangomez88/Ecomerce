@@ -47,7 +47,7 @@ aside {
 
 .boton-menu.active {
     background-color: var(--clr-white);
-    color: var(--clr-main);
+    color: var(--color-letra_2);
     border-top-left-radius: 1rem;
     border-bottom-left-radius: 1rem;
     position: relative;
@@ -99,7 +99,7 @@ aside {
 }
 
 .texto-footer {
-    color: var(--clr-main-light);
+    color: var(--color-letra_1);
     font-size: .85rem;
 }
 
@@ -112,7 +112,7 @@ main {
 }
 
 .titulo-principal {
-    color: var(--clr-main);
+    color: var(--color-letra_1);
     margin-bottom: 2rem;
 }
 
