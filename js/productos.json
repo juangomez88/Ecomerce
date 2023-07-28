@@ -2,7 +2,7 @@
     {
         "id": "tarWars-01",
         "titulo": "Mug trooper",
-        "imagen": "../assets/img/productos/product_details/glass.png",
+        "imagen": "./assets/img/productos/product_details/glass.png",
         "categoria": {
             "nombre": "Wars",
             "id": "wars"
