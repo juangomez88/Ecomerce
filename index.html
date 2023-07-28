@@ -1,108 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AluraGeek</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/container.css">
 </head>
 <body>
-    
+
     <div class="wrapper">
+        <header class="header-mobile">
+            <h1 class="logo">AluraGeek</h1>
+            <button class="open-menu" id="open-menu">
+                <i class="bi bi-list"></i>
+            </button>
+        </header>
         <aside>
+            <button class="close-menu" id="close-menu">
+                <i class="bi bi-x"></i>
+            </button>
             <header>
-                <h1 class="logo">AluraGeek</h1>
+                <h1 class="logo"><img src="./assets/img/logo.svg" alt=""></h1>
             </header>
-                <nav>
-                    <ul>
-                        <li>
-                            <button class="boton-menu boton-categoria" active><i class="bi bi-hand-index-thumb-fill"></i>Todos los productos</button>
-                        </li>
-                        <li>
-                            <button class="boton-menu boton-categoria"><i class="bi bi-star"></i>Star Wars</button>
-                        </li>
-                        <li>
-                            <button class="boton-menu boton-categoria"><i class="bi bi-joystick"></i>Consolas</button>
-                        </li>
-                        <li>
-                            <button class="boton-menu boton-categoria"><i class="bi bi-magic"></i>Diversos</button>
-                        </li>
-                        <li>
-                            <a class="boton-menu boton-carrito" href="./carrito.html"><i class="bi bi-cart-check-fill"></i> Carrito <span class="numero">0</span></a>
-                        </li>
-                    </ul>
-                </nav>
-                <footer>
-                    <p class="texto-footer">© 2023 AluraGeek - Juan Carlos Gomez</p>
-                </footer>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <button id="todos" class="boton-menu boton-categoria active"><i class="bi bi-arrow-right-square"></i></i> Todos los productos</button>
+                    </li>
+                    <li>
+                        <button id="wars" class="boton-menu boton-categoria"><i class="bi bi-star"></i> Star Wars</button>
+                    </li>
+                    <li>
+                        <button id="consolas" class="boton-menu boton-categoria"><i class="bi bi-controller"></i> Consolas</button>
+                    </li>
+                    <li>
+                        <button id="diversos" class="boton-menu boton-categoria"><i class="bi bi-emoji-sunglasses"></i> Diversos</button>
+                    </li>
+                    <li>
+                        <a class="boton-menu boton-carrito" href="./carrito.html">
+                            <i class="bi bi-cart-fill"></i> Carrito <span id="numerito" class="numerito">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2023 AluraGeek | Juan Carlos Gomez</p>
+            </footer>
         </aside>
         <main>
-            <h2 class="titulo-principal">Todos los productos</h2>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/glass.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Mug trooper</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/lego_helmet.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Lego helmet</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/yoda.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Figura de acción Yoda</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/trooper.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Figura de acción Trooper</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/grogu.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Figura Grogu</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
-            </div>
-            <div class="contenedor-productos">
-                <div class="producto">
-                    <img class="producto-imagen" src="./assets/img/productos/product_details/kylo_ren.png" alt="">
-                    <div class="producto-detalles">
-                        <h3 class="producto-titulo">Figura Kylo Ren</h3>
-                        <p class="producto-precio">$60.00</p>
-                        <button class="producto-agregar">Agregar</button>
-                    </div>
-                </div>
+            <h2 class="titulo-principal" id="titulo-principal">Todos los productos</h2>
+            <div id="contenedor-productos" class="contenedor-productos">
+                <!-- Esto se va a rellenar con JS -->
             </div>
         </main>
     </div>
-
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

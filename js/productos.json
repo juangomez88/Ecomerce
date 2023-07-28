@@ -1,0 +1,172 @@
+[
+    {
+        "id": "tarWars-01",
+        "titulo": "Mug trooper",
+        "imagen": "../assets/img/productos/product_details/glass.png",
+        "categoria": {
+            "nombre": "Wars",
+            "id": "wars"
+        },
+        "precio": 60
+    },
+    {
+        "id": "Wars-02",
+        "titulo": "Lego Helmet",
+        "imagen": "../assets/img/productos/product_details/lego_helmet.png",
+        "categoria": {
+            "nombre": "Wars",
+            "id": "wars"
+        },
+        "precio": 60
+    },
+    {
+        "id": "Wars-03",
+        "titulo": "Figura de acción trooper",
+        "imagen": "../assets/img/productos/product_details/trooper.png",
+        "categoria": {
+            "nombre": "Wars",
+            "id": "wars"
+        },
+        "precio": 60
+    },
+    {
+        "id": "Wars-04",
+        "titulo": "Figura de acción Yoda",
+        "imagen": "../assets/img/productos/product_details/yoda.png",
+        "categoria": {
+            "nombre": "Wars",
+            "id": "wars"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "Star Wars-05",
+        "titulo": "Figura Grogu",
+        "imagen": "../assets/img/productos/product_details/grogu.png",
+        "categoria": {
+            "nombre": "Wars",
+            "id": "wars"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolaa-01",
+        "titulo": "Control Xbox",
+        "imagen": "../assets/img/productos/consolas/control1.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolas-02",
+        "titulo": "Switch JHoy-COn(L)/(R)",
+        "imagen": "../assets/img/productos/consolas/control_nintendo-switch.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolas-03",
+        "titulo": "Consola Nintendo nes",
+        "imagen": "../assets/img/productos/consolas/nintendo1.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolas-04",
+        "titulo": "Gameboy color",
+        "imagen": "../assets/img/productos/consolas/game boy.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolas-05",
+        "titulo": "PS5 blue",
+        "imagen": "../assets/img/productos/consolas/ps5_blue.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "consolas-06",
+        "titulo": "Xbox Series X",
+        "imagen": "../assets/img/productos/consolas/xbox.png",
+        "categoria": {
+            "nombre": "Consolas",
+            "id": "consolas"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-01",
+        "titulo": "Radio reloj rosa",
+        "imagen": "../assets/img/productos/diversos/control consola.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-02",
+        "titulo": "Oculus",
+        "imagen": "../assets/img/productos/diversos/control y consola2.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-03",
+        "titulo": "Figura Sonic",
+        "imagen": "../assets/img/productos/diversos/control_y_consola.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-04",
+        "titulo": "camiseta Atari",
+        "imagen": "../assets/img/productos/diversos/tshirt1.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-05",
+        "titulo": "Camiseta control nes",
+        "imagen": "../assets/img/productos/diversos/tshirt_nintendo.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    },
+    {
+        "id": "diversos-06",
+        "titulo": "Disfraz Picachu",
+        "imagen": "../assets/img/productos/diversos/traje pikashu.png",
+        "categoria": {
+            "nombre": "Diversos",
+            "id": "diversos"
+        },
+        "precio": 1000
+    }
+]

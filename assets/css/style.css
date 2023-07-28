@@ -1,32 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;800&family=Rubik:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-
-:root{
-    --color-azul: #2a7ae4;
-    --color-blanco: #fff;
-    --color-negro: #000;
+:root {
+    --clr-main: #2a7ae4;
+    --clr-main-light: #785ce9;
+    --clr-white: #fff;
+    --clr-gray: #f5f5f5;
     --color-letra_1: #464646;
     --color-letra_2: #a2a2a2;
-    --color-gris: #f5f5f5;
-    --color-back: #eaf2fd;
-    --color-borde: #c8c8c8
+    --clr-red: #961818;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Rubik', sans-serif;
 }
 
-h1, h2, h3, h4, h6, p, a, input, textarea{
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, ul {
     margin: 0;
+    padding: 0;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
